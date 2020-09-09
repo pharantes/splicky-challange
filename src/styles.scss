@@ -1,0 +1,30 @@
+
+.App {
+  text-align: center;
+
+  .Home {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around
+  }
+  table{
+    width: 100%; 
+    border-collapse: collapse; 
+    thead,tbody{
+      tr:nth-of-type(odd) { 
+        background: #eee; 
+      }
+      tr {
+        th {
+          background: white;           
+        }
+        td,th{
+          display: flex-row;
+          padding: 6px; 
+          border: 1px solid #ccc; 
+          text-align: left;
+        }
+      }
+    }
+  }
+}
